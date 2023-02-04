@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'VT323', monospace;
+    color: #444d84;
+    background-color: #08001f;
+}
+.words{
+    transform: scaleX(1.2);
+}
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.game-map{
+    min-width: 300px;
+    min-height: 300px;
+    position: relative;
+
+    border: 5px solid #444d84;
+}
+.snake , 
+.eat{
+    width: 10px;
+    height: 10px;
+    position: absolute;
+
+    background-color: #b2d5d1;
+}
+.eat{
+    background-color: #b2d5d1;
+}
